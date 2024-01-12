@@ -1,0 +1,172 @@
+header{
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+body{
+	background: #dddddd;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	font-size: 30px;
+}
+nav{
+
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+nav a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	background: white;
+}
+.produtos li{
+	text-align: center;
+	display: inline-block;
+	width:  30%;
+	vertical-align: top;
+	margin:  0 1.5%;
+	padding: 30px 20px;
+	box-sizing:  border-box;
+	border: 2px solid black;
+}
+.produtos li:hover{
+	border-color: red;
+}
+.produtos li:active{
+	border-color: blue;
+}
+.produtos li:hover h2{
+	font-size: 34px;
+	text-decoration: underline;
+}
+.produtos h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+.produto-descricao{
+	font-size: 18px;
+}
+.produto-preco{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+footer{
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+.copyright{
+	color: #cccccc;
+	font-size:  13px;
+	margin: 20px 0 0;
+}
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+form{
+	margin: 40px 0;
+}
+form label,form legend{
+	display: block;
+	font-size: 22px;
+	margin: 0 0 10px;
+	font-weight: bold;
+	font-style: italic;
+}
+.input-padrao { 
+	display: block;
+	padding: 9px 15px;
+	width:  50%;
+	margin: 0 0 20px;
+	font-size: 20px;
+}
+.checkbox-contato{
+	margin: 20px;	
+}
+select{
+	font-size: 18px;
+}
+.enviar{
+	width: 30%;
+	padding: 15px 0;
+	background: #6fbbd3;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	transition: 1s background;
+	cursor: pointer;
+}
+.enviar:hover{
+	background: blue;
+	color: white;
+}
+table{
+	margin: 20px 0 40px;
+}
+thead{
+	background: #777777;
+	color: white;
+	font-weight: bold;
+}
+td, th{
+	border: 1px solid  #000000;
+	padding: 8px 20px;
+	font-size: 18px;
+}
+
+#banner{
+	width: 100%;
+}
+
+.principal{
+	background: #eeeeee;
+	padding: 30px;
+}
+
+.titulos-pagina{
+	text-align: center;
+}
+
+
+#missao{
+	font-size: 20px
+}
+em strong{
+	color: blue;
+}
+.itens{
+	font-style: italic;
+	font-size: 20px;
+}
+.beneficios{
+	background: #eeeeee;
+	padding: 20px;
+	font-size: 25px;
+
+
+	.imgBeneficios{
+	width:  50%;
+}
